@@ -1,0 +1,143 @@
+.skills-section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.section-title{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: #2d3748;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill-chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Frontend Skills */
+.frontend {
+    background-color:#a4a4a4;
+    color:#fff;
+    border: 1px solid #f4f5f8;
+}
+
+.frontend:hover {
+    background-color:#fff;
+    color:#747474;
+    border: 1px solid #747474;
+}
+
+/* Backend Skills */
+.backend {
+    background-color:#a4a4a4;
+    color:#fff;
+    border: 1px solid #f4f5f8;
+}
+
+.backend:hover {
+    background-color:#fff;
+    color:#747474;
+    border: 1px solid #747474;
+}
+
+/* Database Skills */
+.database {
+    background-color:#a4a4a4;
+    color:#fff;
+    border: 1px solid #f4f5f8;
+}
+
+.database:hover {
+    background-color:#fff;
+    border: 1px solid #747474;
+    color:#747474;
+}
+
+/* DevOps Skills */
+.devops {
+    background-color:#a4a4a4;
+    color:#fff;
+    border: 1px solid #f4f5f8;
+}
+
+.devops:hover {
+    background-color:#fff;
+    color:#747474;
+    border: 1px solid #747474;
+}
+
+/* Tools Skills */
+.tools {
+    background-color:#a4a4a4;
+    color:#fff;
+    border: 1px solid #f4f5f8;
+}
+
+.tools:hover {
+    background-color:#fff;
+    color:#747474;
+    border: 1px solid #747474;
+}
+
+/* Skill level indicator */
+.skill-chip::after {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.beginner::after {
+    background-color:yellow;
+}
+
+.intermediate::after {
+    background-color:mediumspringgreen;
+}
+
+.advanced::after {
+    background-color:deeppink;
+}
+
+.expert::after {
+    background-color:red;
+}
+
+.skill-level-legend {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.level-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #718096;
+}
+
+.level-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
